@@ -1,0 +1,98 @@
+1. What are the new tags added in HTML5?
+=> There has been a few elements introduced in HTML5. Some of them were imported from XHTML2, others from large statistical surveys on made by Google, Opera and other people. 
+   The analysis of class names and id names helped defining what were the most common semantic patterns. These new elements are not yet completely imported in all browsers at this time.
+
+
+	(MOVED) article    hgroup		summary
+	(MOVED) aside      keygen		svg
+	audio			 mark			time
+	canvas		 math			track
+	command		 meter		video
+	datalist		 nav			wbr
+	details		 progress		
+	embed			 rp
+	figcaption		 rt
+	figure		 ruby
+	footer		 section
+	header		 source
+
+2. How to embed audio and video in a webpage?
+=> How to embed video and audio in your HTML
+
+	1. src This attribute stands for the source, which is very similar to the src attribute used in the image element. We will add the 		   link to 	a video file in the src attribute.
+
+	2. type This is going to be video/mp4 because . mp4 is the format of the video we are using.
+
+3. Semantic element in HTML5?
+=> A semantic element clearly describes its meaning to both the browser and the developer.
+
+	Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
+
+	Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
+
+	<article>
+	<aside>
+	<details>
+	<figcaption>
+	<figure>
+	<footer>
+	<header>
+	<main>
+	<mark>
+	<nav>
+	<section>
+	<summary>
+	<time>
+
+4. Canvas and SVG tags 
+=> 
+		SVG
+
+	1. SVG has better scalability. So it can be printed with high quality at any resolution
+	2. SVG gives better performance with smaller number of objects or larger surface.
+	3. SVG can be modified through script and CSS
+	4. SVG is vector based and composed of shapes.
+
+		Canvas
+
+	1. Canvas has poor scalability. Hence it is not suitable for printing on higher resolution
+	2. Canvas gives better performance with smaller surface or larger number of objects.
+	3. Canvas can be modified through script only
+	4. Canvas is raster based and composed of pixel.
+
+	Example:
+
+	<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         #svgelem {
+            position: relative;
+            left: 50%;
+            -webkit-transform: translateX(-20%);
+            -ms-transform: translateX(-20%);
+            transform: translateX(-20%);
+         }
+      </style>
+      <title>HTML5 SVG</title>
+   </head>
+   <body>
+      <h2 align = "center">HTML5 SVG Circle</h2>
+      <svg id = "svgelem" height = "200" xmlns = "http://www.w3.org/2000/svg">
+         <circle id = "bluecircle" cx = "60" cy="60" r = "50" fill = "blue" />
+      </svg>
+   </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
