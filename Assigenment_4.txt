@@ -1,0 +1,107 @@
+﻿1. What is JavaScript?
+=> JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. 
+   (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)
+
+2. What is the use of isNaN function?
+=> The isNaN() function determines whether a value is NaN when converted to a number. Because coercion inside the isNaN() function can be surprising,
+    you may alternatively want to use Number.isNaN().
+
+3. What is negative Infinity? 
+=> NEGATIVE_INFINITY is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than 
+   the largest representable number in JavaScript (i.e., more negative than -Number. MAX_VALUE) . JavaScript displays the NEGATIVE_INFINITY value as -Infinity.
+
+4. Which company developed JavaScript?
+=> JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2, and became the ECMA-262 standard in 1997. After Netscape handed JavaScript 
+   over to ECMA, the Mozilla foundation continued to develop JavaScript for the Firefox browser.
+
+5. What are undeclared and undefined variables?
+=> Undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that have been declared but not given a value.
+
+6. Write the code for adding new elements dynamically?
+=> The createElement() method in JavaScript can be used to create new items dynamically. The setAttribute() method is used to set the attributes of the newly
+   generated element. By clicking a button, a modal box appears and collects the required information dynamically.
+
+7. What is the difference between ViewState and SessionState?
+=> Session state is saved on the server, ViewState is saved in the page. Session state is usually cleared after a period of inactivity from the user 
+   (no request happened containing the session id in the request cookies). The view state is posted on subsequent post back in a hidden field.
+
+8. What is === operator?
+=> The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the strict equality 
+   operator always considers operands of different types to be different.
+
+9. How can the style/class of an element be changed?
+=> Element Class Names
+   Another way to alter the style of an element is by changing its class attribute. class is a reserved word in JavaScript, so in order to access the element's class, 
+   you use element. className.
+
+10. How to read and write a file using JavaScript?
+=>  1. file=fopen(getScriptPath(),0); The function fread() is used for reading the file content.
+    2. str = fread(file,flength(file) ; The function fwrite() is used to write the contents to the file.
+    3. file = fopen("c:\MyFile.txt", 3);// opens the file for writing.
+
+11. What are all the looping structures in JavaScript?
+=>  
+
+12. How can you convert the string of any base to an integer in JavaScript? 
+=>  To convert a string to an integer
+    parseInt(),
+    Number(), 
+    Unary operator(+) function is used in javascript. 
+    parseInt() function returns Nan( not a number) when the string doesn't contain number.
+    If a string with a number is sent, 
+    then only that number will be returned as the output.
+
+13. What is the function of the delete operator?
+=>  The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object, 
+    the object held by that property is eventually released automatically.
+
+14. What are all the types of Pop up boxes available in JavaScript? 
+=>  Alert Box :
+
+    An alert box is often used if you want to make sure information comes through to the user.
+
+    When an alert box pops up, the user will have to click "OK" to proceed.
+
+    Syntax :
+             window.alert("sometext");
+
+    Confirm Box :
+
+    A confirm box is often used if you want the user to verify or accept something.
+
+    When a confirm box pops up, the user will have to click either "OK" or "Cancel" to proceed.
+
+    If the user clicks "OK", the box returns true. If the user clicks "Cancel", the box returns false.
+
+    Syntax :
+             window.confirm("sometext");
+
+    Prompt Box :
+
+    A prompt box is often used if you want the user to input a value before entering a page.
+
+    When a prompt box pops up, the user will have to click either "OK" or "Cancel" to proceed after entering an input value.
+
+    If the user clicks "OK" the box returns the input value. If the user clicks "Cancel" the box returns null.
+
+    Syntax :
+             window.prompt("sometext","defaultText");
+
+15. What is the use of Void (0)?
+=>  JavaScript void 0 means returning undefined (void) as a primitive value. You might come across the term “JavaScript:void(0)” while going through HTML documents.
+    It is used to prevent any side effects caused while inserting an expression in a web page.
+
+16. How can a page be forced to load another page in JavaScript?
+=> In JavaScript, we can use window.location object to force a page to load another page. We can use the location object to set the URL of a new page. 
+   There are different ways – window.location.href property, window.location.assign() and window.location.replace() methods, to set the URL of a new page using the 
+   location object. We will discuss each of the property and methods in detail in this tutorial.
+
+17. What are the disadvantages of using innerHTML in JavaScript?
+=>  Disadvantages of innerHTML
+
+    => Event handlers attached to any DOM element are preserved.
+    => Replacement is done everywhere.
+    => It is not possible to append innerHTML.
+    => Breaks the document.
+    => Used for Cross-site Scripting.
+   
